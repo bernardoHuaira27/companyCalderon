@@ -1,0 +1,47 @@
+/*
+Theme Name: Neom City
+Theme URI: https://awplife.com/wordpress-themes/neom-premium/
+Template: neom-blog
+Author: awplife
+Author URI: https://www.awplife.com/
+Description: A powerful next generation theme for upcoming generations and traditional UI that focuses on the color combinations of solid and gradient colors, along with cool animations and attractive features. Lightning Fast Speed &amp; Responsive Theme. Neom is a responsive and fully customizable theme to create any kind of websites. The advanced admin panel will enable you to customize it without any technical knowledge. it will enable you to create almost any type of website such a blog, portfolio, news, newspaper, mega magazine, dark business , architecture, interior design, decoration, furniture, home decor, construction, corporate, agency, business promotion, industries, Beauty &amp; spa salons, photography, gym, fitness, health, medical, startups, business agencies, law firms, travel, education, university portal, restaurant, meta shop, quick magazines, finance, accounting, consulting, travel agency website. Theme is fully compatible with popular WordPress plugins like Elementor Page Builder, Slider, Carousal, Beaver Builder, Brizy, Visual Composer, Divi, SiteOrigin, Gutenberg, Block-Enabled, WooCommerce, WPML, Yoast SEO, Shortcode, Jetpack, Contact Form 7, Mailchimp for WordPress, bbPress, Demo Importer, WPForms and many more. If you are looking for a dark and easy to use theme, don´t go astray. You just found it! View the demo of Neom Premium https://www.awplife.com/demo/neom
+Tags: one-column,two-columns,right-sidebar,flexible-header,custom-background,custom-colors,custom-header,custom-menu,custom-logo,featured-image-header,featured-images,footer-widgets,full-width-template,sticky-post,theme-options,threaded-comments,translation-ready,blog,news,portfolio,editor-style,grid-layout
+Version: 0.0.3
+Tested up to: 6.5
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: neom-city
+*/
+
+/* Colors */
+:root {
+    --sp-gradient1: linear-gradient(137deg, var(--sp-primary) 0%, var(--sp-primary2) 100%);
+    --sp-gradient2: linear-gradient(-137deg, var(--sp-secondary) 0%, var(--sp-secondary2) 100%);
+    --sp-green: #ffffff;
+    --sp-white: #ffffff;
+    --sp-primary-light: #fff9f9;
+    --sp-primary: #630060;
+    --sp-primary2: #ef34ef;
+    --sp-secondary: #660058;
+    --sp-secondary2: #010044;
+    --sp-secondary-dark: #101010;
+    --sp-border-dark: #dddddd;
+    --sp-border-light: #e9e9e9;
+    --sp-border-extra-light: #f2f2f2;
+    --sp-scrollbar-thumb: #c2c2c2;
+    --sp-font-sans-serif: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --sp-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --sp-shadow: 2px 5px 20px rgba(0, 0, 0, .2);
+    --sp-radius: 3px;
+    --sp-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+}
+
+.post-carousel .post-items .post-date {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.post-carousel .post-items:hover .post-date {
+    opacity: 0;
+}

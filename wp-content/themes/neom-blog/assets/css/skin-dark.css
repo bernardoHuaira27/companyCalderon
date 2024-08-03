@@ -1,0 +1,224 @@
+body {
+    color: var(--sp-primary-light);
+}
+
+#content,
+.info-section,
+.about-section,
+.cta-section,
+.service-section,
+.features-section,
+.portfolio-section,
+.funfact-section,
+.post-section,
+.testimonial-section,
+.team-section,
+.client-section,
+.step-section,
+.timeline-section,
+.contactmap-section,
+.contactform-section,
+.faq-section {
+    background: var(--wp--preset--color--black);
+}
+
+/* Inner Section Background Dark Mode CSS */
+.service-item,
+.features-item,
+.contactinfo-item,
+.funfact-item,
+.post-items,
+.team-member .team-info,
+.timeline-content,
+.contactform {
+    background: var(--sp-secondary-dark);
+    box-shadow: 0px 0px 5px 0px var(--sp-border-light); /* zish */
+    -webkit-box-shadow: 0px 0px 5px 0px var(--sp-border-light); /* zish */
+    -moz-box-shadow: 0px 0px 5px 0px var(--sp-border-light); /* zish */
+}
+
+.service-overlay:after {
+    background-color: var(--sp-secondary-dark);
+}
+
+/* Inner Section Text/Link/Paragraph Dark Mode CSS */
+.funfact-item,
+.timeline strong,
+.timeline-item .timeline-date,
+.contactinfo-item {
+    color: var(--sp-primary-light);
+}
+
+/*Section Modified For Dark Background*/
+.stepbox {
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    background: var(--sp-secondary-dark);
+    margin: 10px;
+    padding: 25px 10px;
+    border-radius: 10px;
+}
+
+.post-content .cat-links a,
+.post-content .tag-links a {
+    color: var(--sp-primary-light);
+}
+
+.footer-section.footer-one:after {
+    opacity: 0.9 !important;
+}
+
+/*Menu Dark CSS*/
+.theme-mobile-nav,
+.navbar-area,
+.header-above-info {
+    background: var(--sp-secondary-dark);
+}
+
+.menubar .menu-wrap>li>a,
+.header .header-search-toggle,
+.cart-icon-wrap {
+    color: var(--sp-primary-light);
+}
+
+.header .widget_nav_menu .sub-menu,
+.navbar-area .menubar .dropdown-menu {
+    background: var(--sp-secondary-dark);
+}
+
+.navbar-area .menubar .dropdown-menu li a {
+    color: var(--sp-primary-light);
+}
+
+/*Mobile Menu CSS*/
+.toggle-lines div {
+    background: var(--sp-primary-light);
+}
+.mobile-menu:after {
+    background: var(--sp-secondary-dark);
+}
+.mobile-menu .menu-wrap > li a {
+    color: var(--sp-primary-light);
+}
+
+.mobi-head-top {
+    background-color: var(--sp-secondary-dark);
+}
+.navigator-wrapper .close-style {
+    background: var(--sp-gradient1);
+}
+.close-style:before, .close-style:after {
+    background: var(--sp-primary-light);
+}
+
+
+
+/*Social Icons Background*/
+.share-toolkit .toolkit-hover,
+.widget_social_widget li a {
+    background: var(--wp--preset--color--black);
+    color: var(--sp-primary-light);
+}
+
+/*Comment Background Css*/
+.comment-respond {
+    background: var(--sp-secondary-dark);
+}
+.comments-area {
+    background: var(--sp-secondary-dark);
+}
+
+.comment-respond form input[type="text"],
+.comment-respond form input[type="email"],
+.comment-respond form input[type="url"],
+.comment-respond form input[type="number"],
+.comment-respond form textarea {
+    background: var(--sp-secondary-dark);
+}
+
+/* Theme tag cloud Widget */
+.wp-block-tag-cloud a {
+    color: var(--sp-primary-light) !important;
+}
+
+/*Widgets / Sidebar Background Color CSS*/
+.sidebar>.widget,
+.sidebar .wp-block-group__inner-container,
+.sidebar .wp-block-search__label {
+    background: var(--sp-secondary-dark);
+    -webkit-box-shadow: inset 0px 0px 3px 0px rgb(255 255 255 / 75%); /* zish */
+    -moz-box-shadow: inset 0px 0px 3px 0px rgb(255 255 255 / 75%); /* zish */
+    box-shadow: inset 0px 0px 3px 0px rgb(255 255 255 / 75%); /* zish */
+}
+
+/*Widgets / Sidebar Text Color CSS*/
+.sidebar .widget.widget_product_categories ul>li:not(.cat-parent)>a:not(:hover):not(:focus),
+.sidebar .widget.widget_archive ul>li>a:not(:hover):not(:focus),
+.sidebar .widget.widget_categories ul>li>a:not(:hover):not(:focus) {
+    color: var(--sp-primary-light);
+}
+
+.wp-caption {
+    background-color: var(--sp-secondary-dark);
+}
+
+.wp-block-calendar,
+.calendar_wrap {
+    background-color: var(--sp-secondary-dark);
+}
+.wp-block-calendar table caption,
+.calendar_wrap table caption {
+    color: var(--sp-primary-light);
+}
+.widget div.wp-block-calendar .wp-calendar-nav span.wp-calendar-nav-prev a,
+.widget div.calendar_wrap .wp-calendar-nav span.wp-calendar-nav-prev a{
+    color: var(--sp-primary-light);
+}
+
+.wp-block-calendar table td, .calendar_wrap table td {
+    background-color: var(--sp-secondary-dark);
+    color: var(--sp-primary-light);
+    border-collapse: collapse;
+    outline: 5px solid var(--wp--preset--color--black);
+    outline-offset: -3px;
+}
+.wp-block-calendar table th, .calendar_wrap table th {
+    border: 5px solid var(--wp--preset--color--black);
+}
+
+/*Table Background CSS*/
+.neom-content table {
+    background: var(--sp-secondary-dark);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    background-color: var(--sp-secondary-dark) !important;
+    color: white;
+}
+
+/*WOO Dark Css */
+.product .product-single {
+    background-color: var(--sp-primary-light);
+}
+.product .product-single h3 a {
+    color: var(--sp-primary-light);
+}
+.product .product-single h3 a:hover {
+    color: var(--sp-gradient1);
+}
